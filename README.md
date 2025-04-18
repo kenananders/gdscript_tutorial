@@ -60,3 +60,29 @@ GDScript is also strongly typed, which means types must be explicitly converted.
 Note that there is no incremental operator in GDScript (x++, x--). Correct notation would be (x+=, x-=). This exists for all Arithmetic Operators.
 
 ## Strings
+Strings are immutable in GDScript. As Godot is a game engine, there is not as much emphasis on strings and string operations as there are in other popular and easy languages, like Python. There are a lot of built in methods that are helpful for converting hexcode, opening and writing to files, reading locations, and other more technical string implementations. 
+### Common String Operations
+- **Length**: "abc".length()         # 3
+- **Upper**: "abc".to_upper()       # "ABC"
+- **Find**: "abc".find("b")        # 1
+- **Substring**: "abc".substr(1, 2)     # "bc"
+- **Capitalize**: "abc".capitalize()     # "Abc"
+- **Contains**: "abc".contains("b")      # true
+
+## Primitive Data Structures
+There are two primary data structures in GDScript - Arrays and Dictionaries. The array can operate as a resizeable list and has stack/queue operations. The Dictionary is a standard key/value pair. 
+### Array
+- arr.size()
+- arr.push_back(5)
+- arr.pop_back()
+- arr[0]
+- arr[0] = 100
+
+### Dictionary
+- dict.has("key")
+- dict["key"] = value
+- dict.erase("key")
+
+## Structured Programming
+### Code Blocks and Scope
+GDScript uses indentation to define code blocks, similar to Python. It uses Lexical and Function scoping, and variables are defined with 'var' (using indentation to determine variable visibility).
