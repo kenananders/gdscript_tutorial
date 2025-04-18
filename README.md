@@ -86,3 +86,31 @@ There are two primary data structures in GDScript - Arrays and Dictionaries. The
 ## Structured Programming
 ### Code Blocks and Scope
 GDScript uses indentation to define code blocks, similar to Python. It uses Lexical and Function scoping, and variables are defined with 'var' (using indentation to determine variable visibility).
+
+### Conditional Statements
+Decision making statements that may allow you to choose to execute different blocks of code. 
+- **If Statement**
+- **Else Statement**
+- **Elif Statement**
+- **Match Statement (Switch)**
+- **Nested If Statement**
+- **Ternary Operator**
+
+### Iteration Constructs
+Loops - used to repeat blocks of code multiple times. Loop control statements 'continue', 'break', and 'return' are all supported. 
+- **While Loop**
+- **For Loop**
+
+## Prodecural Programming
+### Funtions
+Functions are declared as follows:
+
+They can use 'return' to return values, when required
+### Functional Features
+
+
+## User Defined Types
+The GDScript scripts themselves can act as a custom type. 
+
+## Modularization
+Each GDScript script can act as a module. There no no explicit namespaces, but as each script is assigned to a node (ie, 'Player' node has a 'player.gd' script), scripts can be organized in an inuitive file structure (ie, characters, utils, etc.) To import, see the example in 'User Defined Types' above. 'Load', 'Preload', and 'Extends' will import another script using the correct paths. 
