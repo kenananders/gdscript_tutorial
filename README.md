@@ -17,3 +17,23 @@ https://gdscript-online.github.io/
 For simple input/output, there is the _input() function which will run whenever an input event occurs. This function is specific to the game engine, which means expected input tends to be mouse/keyboard presses and movements instead of text input. 
 
 The following is a brief snippet of the _input() function and how it can gather input and print output. 
+
+
+## Primitive Types
+
+- **int**: Represents integers (whole numbers)
+- **float**: Represents floating-point numbers (decimal values)
+- **bool**: Represents boolean values (`True` or `False`)
+- **str**: Represents strings (text data)
+- **null**: Represents the absence of a value
+
+GDScript is Dyanmically typed by default but can optionally be statically typed. 
+
+- var x = 5 # Dynamically Typed
+- var x: int = 5 # Statically Typed
+
+GDScript is also strongly typed, which means types must be explicitly converted.
+- var x = 5
+- var y = “6”
+- var z = x + int(y)
+
