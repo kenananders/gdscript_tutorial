@@ -37,3 +37,26 @@ GDScript is also strongly typed, which means types must be explicitly converted.
 - var y = “6”
 - var z = x + int(y)
 
+## Operations on Primitive Types
+### Arithmetic Operators
+- **Addition (`+`)**: Adds two numbers.
+- **Subtraction (`-`)**: Subtracts one number from another.
+- **Multiplication (`*`)**: Multiplies two numbers.
+- **Division (`/`)**: Divides one number by another.
+- **Modulus (`%`)**: Returns the remainder of a division.
+- **Exponentiation (`**`)**: Raises one number to the power of another.
+### Relational Operators
+- **Equal (`==`)**: Checks if two values are equal.
+- **Not equal (`!=`)**: Checks if two values are not equal.
+- **Greater than (`>`)**: Checks if one value is greater than another.
+- **Less than (`<`)**: Checks if one value is less than another.
+- **Greater than or equal to (`>=`)**: Checks if one value is greater than or equal to another.
+- **Less than or equal to (`<=`)**: Checks if one value is less than or equal to another.
+### Logical Operators
+- **AND (`and`)**: Returns `True` if both conditions are true.
+- **OR (`or`)**: Returns `True` if at least one condition is true.
+- **NOT (`not`)**: Negates the condition.
+
+Note that there is no incremental operator in GDScript (x++, x--). Correct notation would be (x+=, x-=). This exists for all Arithmetic Operators.
+
+## Strings
