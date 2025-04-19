@@ -40,7 +40,7 @@ GDScript is Dyanmically typed by default but can optionally be statically typed.
 
 GDScript is also strongly typed, which means types must be explicitly converted.
 
-![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355strongtype.png)
+![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355strongtype.png)
 
 ## Operations on Primitive Types
 ### Arithmetic Operators
@@ -51,7 +51,7 @@ GDScript is also strongly typed, which means types must be explicitly converted.
 - **Modulus (`%`)**: Returns the remainder of a division.
 - **Exponentiation (`**`)**: Raises one number to the power of another.
 
-  ![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355arithmetic.png)
+  ![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355arithmetic.png)
   
 ### Relational Operators
 - **Equal (`==`)**: Checks if two values are equal.
@@ -61,7 +61,7 @@ GDScript is also strongly typed, which means types must be explicitly converted.
 - **Greater than or equal to (`>=`)**: Checks if one value is greater than or equal to another.
 - **Less than or equal to (`<=`)**: Checks if one value is less than or equal to another.
 
-  ![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355relational.png)
+  ![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355relational.png)
 
 ### Logical Operators
 - **AND (`and`)**: Returns `True` if both conditions are true.
@@ -80,15 +80,15 @@ Strings are immutable in GDScript. As Godot is a game engine, there is not as mu
 - **Capitalize**: "abc".capitalize()     # "Abc"
 - **Contains**: "abc".contains("b")      # true
 
-  ![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355string2.png)
+  ![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355string2.png)
 
 ## Types Unique to GDScript
 There are a few specific types that are specific to GDScript with a focus on the Godot game engine. Some of these types are Vector2D, Vector3D, and Color. Vectors may be used to track positions and calculate movements, while colors are used to store RGB values for any purpose. 
 
 - **Vector2D and 3D** <br>
-![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355vector.png)
+![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355vector.png)
 - **Color** <br>
-![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355color.png)
+![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355color.png)
 
 ## Primitive Data Structures
 There are two primary data structures in GDScript - Arrays and Dictionaries. The array can operate as a resizeable list and has stack/queue operations. The Dictionary is a standard key/value pair. There is also a PackedArray, which explicitly typecasts the Array in regards to storage management.
@@ -99,16 +99,16 @@ There are two primary data structures in GDScript - Arrays and Dictionaries. The
 - arr[0]
 - arr[0] = 100
 
-![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355array.png)
+![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355array.png)
 
-![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355packedarray.png)
+![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355packedarray.png)
 
 ### Dictionary
 - dict.has("key")
 - dict["key"] = value
 - dict.erase("key")
 
-![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355dict.png)
+![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355dict.png)
 
 ## Structured Programming
 ### Code Blocks and Scope
@@ -117,45 +117,45 @@ GDScript uses indentation to define code blocks, similar to Python. It uses Lexi
 ### Conditional Statements
 Decision making statements that may allow you to choose to execute different blocks of code. 
 - **If Statement** <br>
-![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355if.png)
+![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355if.png)
 - **Else Statement** <br>
-![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355else.png)
+![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355else.png)
 - **Elif Statement** <br>
-![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355elif.png)
+![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355elif.png)
 - **Match Statement (Switch)** <br>
-![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355match.png)
+![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355match.png)
 - **Nested If Statement** <br>
-![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355nested.png)
+![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355nested.png)
 - **Ternary Operator** <br>
-![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355tern.png)
+![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355tern.png)
 
 ### Iteration Constructs
 Loops - used to repeat blocks of code multiple times. Loop control statements 'continue', 'break', and 'return' are all supported. 
 - **While Loop**
-![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355while.png)
+![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355while.png)
 - **For Loop**
-![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355for.png)
-![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355for2.png)
+![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355for.png)
+![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355for2.png)
 
 ## Prodecural Programming
 ### Funtions
 Functions are declared as follows:
 
-![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355func.png)
+![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355func.png)
 
 They can use 'return' to return values, when required
 ### Functional Features
-![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355default.png)
-![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355funcprint.png)
-![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355lambda.png)
-![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355map.png)
+![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355default.png)
+![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355funcprint.png)
+![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355lambda.png)
+![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355map.png)
 
 ## User Defined Types
 The GDScript scripts themselves can act as a custom type. 
 
-![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355player.png)
+![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355player.png)
 
-![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355player2.png)
+![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355player2.png)
 
 ## Modularization
 Each GDScript script can act as a module. There no no explicit namespaces, but as each script is assigned to a node (ie, 'Player' node has a 'player.gd' script), scripts can be organized in an inuitive file structure (ie, characters, utils, etc.) To import, see the example in 'User Defined Types' above. 'Load', 'Preload', and 'Extends' will import another script using the correct paths. 
