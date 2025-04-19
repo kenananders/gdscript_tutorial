@@ -17,6 +17,8 @@ For this tutorial, we use primarily use _ready() as our ‘main()’ equivalent.
 - [Here](https://www.youtube.com/watch?v=eKWP6Q5cFsM) is a link to a brief demonstration of a Lambda function implementation.
 - [Here](https://www.youtube.com/watch?v=Bac5XI2c_uo) is a link to a brief demonstration of a custom GDScript datatype.
 
+Note that I am using an online Godot Engine found on github pages and not the explicit downloaded Godot Engine. 
+
 ## Simple I/O
 For simple input/output, there is the _input() function which will run whenever an input event occurs. This function is specific to the game engine, which means expected input tends to be mouse/keyboard presses and movements instead of text input. 
 
