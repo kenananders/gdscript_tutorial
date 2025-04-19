@@ -13,7 +13,9 @@ For this tutorial, we use primarily use _ready() as our ‘main()’ equivalent.
 
 ![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355helloworld.png)
 
-[Here]() is a link to a brief demonstration of the 'Hello World' program.  
+- [Here]() is a link to a brief demonstration of the 'Hello World' program.
+- [Here]() is a link to a brief demonstration of a Lambda function implementation.
+- [Here]() is a link to a brief demonstration of a custom GDScript datatype.
 
 ## Simple I/O
 For simple input/output, there is the _input() function which will run whenever an input event occurs. This function is specific to the game engine, which means expected input tends to be mouse/keyboard presses and movements instead of text input. 
