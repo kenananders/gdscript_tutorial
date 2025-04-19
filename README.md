@@ -9,7 +9,7 @@ _ready() is a ‘setup()’ function that runs once to load and initialize varia
 _process() is a ‘loop()’ function that runs many times a second to handle specific game updates where applicable
 _physics_process() is another ‘loop()’ function that runs many times a second to handle properties specific to a physics engine, where applicable
 
-For this tutorial, we use primarily use _ready() as our ‘main()’ equivalent. Scripts can be run in the Godot game engine itself, or [this github pages link](https://gdscript-online.github.io/) for simpler, non-integrated examples:
+For this tutorial, we use primarily use _ready() as our ‘main()’ equivalent. Scripts can be run in the Godot game engine itself, or [this github pages link](https://gdscript-online.github.io/) for simpler, non-integrated examples.
 
   ![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355hellowworld.png)
 
