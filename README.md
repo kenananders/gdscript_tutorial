@@ -11,14 +11,14 @@ _physics_process() is another ‘loop()’ function that runs many times a secon
 
 For this tutorial, we use primarily use _ready() as our ‘main()’ equivalent. Scripts can be run in the Godot game engine itself, or [this github pages link](https://gdscript-online.github.io/) for simpler, non-integrated examples.
 
-  ![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355hellowworld.png)
+![](https://github.com/kenananders/gdscript_tutorial/main/screenshots/355hellowworld.png)
 
 ## Simple I/O
 For simple input/output, there is the _input() function which will run whenever an input event occurs. This function is specific to the game engine, which means expected input tends to be mouse/keyboard presses and movements instead of text input. 
 
 The following is a brief snippet of the _input() function and how it can gather input and print output. Note that 'print()' is the standard output as it is in similar languages, such as Python. 
 
-![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355input.png)
+![](https://github.com/kenananders/gdscript_tutorial/main/screenshots/355input.png)
 
 ## Primitive Types
 
