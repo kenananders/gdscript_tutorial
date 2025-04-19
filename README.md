@@ -9,9 +9,9 @@ _ready() is a ‘setup()’ function that runs once to load and initialize varia
 _process() is a ‘loop()’ function that runs many times a second to handle specific game updates where applicable
 _physics_process() is another ‘loop()’ function that runs many times a second to handle properties specific to a physics engine, where applicable
 
-For this tutorial, we use primarily use _ready() as our ‘main()’ equivalent. Scripts can be run in the Godot game engine itself, or this github pages link for simpler, non-integrated examples:
-https://gdscript-online.github.io/
+For this tutorial, we use primarily use _ready() as our ‘main()’ equivalent. Scripts can be run in the Godot game engine itself, or ![this github pages link](https://gdscript-online.github.io/) for simpler, non-integrated examples:
 
+  ![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355hellowworld.png)
 
 ## Simple I/O
 For simple input/output, there is the _input() function which will run whenever an input event occurs. This function is specific to the game engine, which means expected input tends to be mouse/keyboard presses and movements instead of text input. 
@@ -107,25 +107,25 @@ GDScript uses indentation to define code blocks, similar to Python. It uses Lexi
 ### Conditional Statements
 Decision making statements that may allow you to choose to execute different blocks of code. 
 - **If Statement**
-  ![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355if.png)
+![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355if.png)
 - **Else Statement**
-  ![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355else.png)
+![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355else.png)
 - **Elif Statement**
-  ![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355elif.png)
+![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355elif.png)
 - **Match Statement (Switch)**
-  ![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355match.png)
+![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355match.png)
 - **Nested If Statement**
-  ![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355nested.png)
+![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355nested.png)
 - **Ternary Operator**
-  ![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355tern.png)
+![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355tern.png)
 
 ### Iteration Constructs
 Loops - used to repeat blocks of code multiple times. Loop control statements 'continue', 'break', and 'return' are all supported. 
 - **While Loop**
-  ![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355while.png)
+![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355while.png)
 - **For Loop**
-  ![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355for.png)
-  ![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355for2.png)
+![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355for.png)
+![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355for2.png)
 
 ## Prodecural Programming
 ### Funtions
