@@ -82,8 +82,16 @@ Strings are immutable in GDScript. As Godot is a game engine, there is not as mu
 
   ![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355string2.png)
 
+## Types Unique to GDScript
+There are a few specific types that are specific to GDScript with a focus on the Godot game engine. Some of these types are Vector2D, Vector3D, and Color. Vectors may be used to track positions and calculate movements, while colors are used to store RGB values for any purpose. 
+
+- **Vector2D and 3D** <br>
+![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355vector.png)
+- **Color** <br>
+![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355color.png)
+
 ## Primitive Data Structures
-There are two primary data structures in GDScript - Arrays and Dictionaries. The array can operate as a resizeable list and has stack/queue operations. The Dictionary is a standard key/value pair. 
+There are two primary data structures in GDScript - Arrays and Dictionaries. The array can operate as a resizeable list and has stack/queue operations. The Dictionary is a standard key/value pair. There is also a PackedArray, which explicitly typecasts the Array in regards to storage management.
 ### Array
 - arr.size()
 - arr.push_back(5)
@@ -92,6 +100,8 @@ There are two primary data structures in GDScript - Arrays and Dictionaries. The
 - arr[0] = 100
 
 ![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355array.png)
+
+![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355packedarray.png)
 
 ### Dictionary
 - dict.has("key")
@@ -135,7 +145,10 @@ Functions are declared as follows:
 
 They can use 'return' to return values, when required
 ### Functional Features
-
+![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355default.png)
+![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355funcprint.png)
+![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355lambda.png)
+![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355map.png)
 
 ## User Defined Types
 The GDScript scripts themselves can act as a custom type. 
