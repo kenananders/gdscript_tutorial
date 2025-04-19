@@ -13,6 +13,8 @@ For this tutorial, we use primarily use _ready() as our ‘main()’ equivalent.
 
 ![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355helloworld.png)
 
+[Here]() is a link to a brief demonstration of the 'Hello World' program.  
+
 ## Simple I/O
 For simple input/output, there is the _input() function which will run whenever an input event occurs. This function is specific to the game engine, which means expected input tends to be mouse/keyboard presses and movements instead of text input. 
 
@@ -139,23 +141,30 @@ Loops - used to repeat blocks of code multiple times. Loop control statements 'c
 
 ## Prodecural Programming
 ### Funtions
-Functions are declared as follows:
+Functions can be declared similarly as follows:
 
 ![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355func.png)
 
-They can use 'return' to return values, when required
-### Functional Features
-![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355default.png)
 ![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355funcprint.png)
+
+They can use 'return' to return values, or omit this entirely to perform a different operation. There are examples of both above. Below is an example of a function that uses a default parameter, in similar notation to Python. 
+
+![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355default.png)
+
+### Functional Features
+
+There is also the ability to create anonymous/lambda functions in GDScript. Examples of this are shown below:
+
 ![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355lambda.png)
+
 ![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355map.png)
 
 ## User Defined Types
-The GDScript scripts themselves can act as a custom type. 
+The GDScript scripts themselves can act as a custom type. In the examples below, note that each script corresponds to a specific node. This means that each node acts as it's own 'class' to a certain degree, allowing the loading of other scripts to create custom objects. 
 
 ![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355player.png)
 
 ![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355player2.png)
 
 ## Modularization
-Each GDScript script can act as a module. There no no explicit namespaces, but as each script is assigned to a node (ie, 'Player' node has a 'player.gd' script), scripts can be organized in an inuitive file structure (ie, characters, utils, etc.) To import, see the example in 'User Defined Types' above. 'Load', 'Preload', and 'Extends' will import another script using the correct paths. 
+Each GDScript script can act as a module. There are no explicit namespaces, but as each script is assigned to a node (ie, 'Player' node has a 'player.gd' script), scripts can be organized in an inuitive file structure (ie, characters, utils, etc.) To import, see the example in 'User Defined Types' above. 'Load', 'Preload', and 'Extends' will import another script using the correct paths. 
