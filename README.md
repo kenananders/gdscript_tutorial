@@ -151,7 +151,7 @@ Functions can be declared similarly as follows:
 
 ![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355funcprint.png)
 
-They can use 'return' to return values, or omit this entirely to perform a different operation. There are examples of both above. Below is an example of a function that uses a default parameter, in similar notation to Python. 
+They can use 'return' to return values, or omit this entirely to perform a different operation. There are examples of both above. Below is an example of a function that uses a default parameter, in similar notation to Python. Note that there are no explicit '*args' or '**kwargs'. GDScript uses functions as First Class Citizens, which means they can used as arguments or have them returned from other functions. This also means it allows higher-order functions, such as the 'map' demonstrated in the Functional Features section below. 
 
 ![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355default.png)
 
@@ -162,6 +162,8 @@ There is also the ability to create anonymous/lambda functions in GDScript. Exam
 ![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355lambda.png)
 
 ![](https://raw.githubusercontent.com/kenananders/gdscript_tutorial/main/screenshots/355map.png)
+
+Other Functional programming types are similarly implemented and mostly follow the Python structure. 
 
 ## User Defined Types
 The GDScript scripts themselves can act as a custom type. In the examples below, note that each script corresponds to a specific node. This means that each node acts as it's own 'class' to a certain degree, allowing the loading of other scripts to create custom objects. 
