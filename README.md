@@ -106,17 +106,17 @@ GDScript uses indentation to define code blocks, similar to Python. It uses Lexi
 
 ### Conditional Statements
 Decision making statements that may allow you to choose to execute different blocks of code. 
-- **If Statement**
+- **If Statement** <br>
 ![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355if.png)
-- **Else Statement**
+- **Else Statement** <br>
 ![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355else.png)
-- **Elif Statement**
+- **Elif Statement** <br>
 ![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355elif.png)
-- **Match Statement (Switch)**
+- **Match Statement (Switch)** <br>
 ![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355match.png)
-- **Nested If Statement**
+- **Nested If Statement** <br>
 ![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355nested.png)
-- **Ternary Operator**
+- **Ternary Operator** <br>
 ![](https://github.com/kenananders/gdscript_tutorial/blob/main/screenshots/355tern.png)
 
 ### Iteration Constructs
